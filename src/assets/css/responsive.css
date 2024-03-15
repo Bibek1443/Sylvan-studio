@@ -1,0 +1,377 @@
+@media (max-width: 400px) {
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  
+  .mid-header .mid-logo img{
+    width: 124px;
+    height: 48px;
+  }
+
+  .bottom-header .shop-now{
+    display: none;
+  }
+
+  .bottom-header .navbar-toggler{
+  }
+
+  
+.bottom-header .left-text{
+  display: block;
+}
+  .Hero-banner .row{
+    gap: 20px;
+  }
+
+  .Hero-banner .carousel-caption {
+   top: 40px;
+  }
+
+  .Hero-banner .card-title{
+    font-size: 10px;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+  
+  .Hero-banner .card-text{
+    font-size: 16px;
+    font-weight: 800;
+  }
+
+  
+
+
+  .mob-feature-card{
+    white-space: nowrap;
+  }
+ 
+
+
+  .Trophies .news-section .row .active{
+    display: none;
+  }
+
+  .Trophies .product-grid{
+    margin-left: 30px;
+
+  }
+
+  .newsletter .subscribe-btn{
+margin-top: 35px;
+width: 142px;
+height: 35px;
+color: white;
+background-color: transparent;
+justify-content: center;
+align-items: center; 
+border: 1px solid white;
+gap: 10px; }
+
+ .newsletter button .subscribe1{
+  display: none;
+ }
+ .newsletter button .subscribe2{
+  display: block;
+}
+
+.newsletter .subscribe-btn h6{
+  padding-top: 10px;
+}
+
+
+  footer .nav_menu-1{
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+
+  .Chat-box {
+ margin: 30px 0px 30px 36px;
+  }
+
+  .Chat-box .row{
+    gap: 35px;
+  }
+  .Chat-box .chat-content {
+    white-space: nowrap;
+  }
+
+  .copyright .container{
+    justify-content: center;
+    gap: 2px;
+  }
+  .copyright .left-text{
+  }
+  .mid-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 34px 0px;
+  }
+  .mid-footer img{
+    display: block;
+    
+  }
+ }
+
+ 
+
+
+ /* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+
+  
+  .Hero-banner .carousel-item{
+    position: relative;
+  }
+
+  .Hero-banner .carousel-caption {
+    position: absolute;
+   bottom: 25px;
+   left: 0px;
+
+  }
+  .Hero-banner .card-title{
+    font-size: 10px;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+  
+  .Hero-banner .card-text{
+    font-size: 14px;
+    font-weight: 800;
+  }
+
+
+  .Features_Section .mob-feature-card{
+    display: block;
+  }
+  .Features_Section .mob-feature-card img{
+    width: 100%;
+  }
+
+  .Features_Section .mob-feature-card button{
+    font-size: 8px;
+    height: 31px;
+    width: 79px;
+  }
+  
+   .mob-feature-card p,h3{
+    /* white-space: nowrap; */
+  } 
+
+
+  .Features_Section .Feature-card{
+    display: none;
+  }
+
+
+
+  .About_Section .about-title h1{
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .About_Section .about-title p{
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .service-wrap .row{
+  
+  }
+  
+  .Product .row{
+      gap: 20px;
+  }
+  
+  .Trophies .news-section h2{
+    font-size: 20px;
+  }
+
+  /* footer .nav_menu-1{
+    display: none;
+  } */
+  
+  /* footer .nav_menu-3{
+    display: block;
+
+ } */
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+  .top-header .left-text{
+    display: none;
+  }
+
+  .right-text{
+  }
+
+ 
+  .mid-header .buttons{
+    display: none;
+  }
+
+  .mid-header .phone-group{
+    display: none;
+  }
+  .mid-header .navbar-toggler{
+    display: block;
+    padding: 0;
+    margin-left: 0px;
+ }
+
+
+  .mid-header button{
+    border: none;
+  }
+
+  .mid-header button span{
+    height: 20px;
+    width: 20px;
+  }
+  .bottom-header .navbar-toggler{
+    display: none;
+  }
+  
+ 
+  .Hero-banner .card-title{
+    font-size: 10px;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+  
+  .Hero-banner .card-text{
+    font-size: 14px;
+    font-weight: 800;
+  }
+  
+  
+  /* .Hero-banner .card-title{
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+  
+  .Hero-banner .card-text{
+    font-size: 20px;
+    font-weight: 800;
+  } */
+
+
+
+
+  .Hero-banner .active .Hero-content .card-title{
+    font-size: 10px;
+  }
+
+  .Hero-banner .active .Hero-content .card-text{
+    font-size: 16px;
+  }
+
+  .Hero-banner .card .card-img
+.card-title{
+  font-size: 10px;
+}
+.Hero-banner .card .card-img
+.card-text{
+  font-size: 16px;
+}
+   
+.Features_Section .Feature-card{
+  position: relative;
+}
+.Features_Section .Feature-card .card-img-content{
+  position: absolute;
+  bottom: 8px;
+  right:200px;
+  gap: 20px;
+
+}
+
+
+  /* .Features_Section .mob-feature-card{
+    display: block;
+    width: 100%;
+  } */
+
+  .Trophies h2{
+    font-size: 28px;
+  }
+
+  .Chat-box{
+    margin: 0px 90px 44px 30px;
+  }
+  }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+  .top-border{
+    width: 100%;
+    margin-left: 0px;
+  }
+  .mid-header .mid-logo{
+
+  }
+
+
+  .Hero-banner .carousel-caption {
+    position: absolute;
+  bottom: 60px;
+  left: 25px;
+  }
+
+
+  .Features_Section .Feature-card .icon img{
+    height: 40px;
+    width: 40px;
+
+  }
+
+  .Features_Section .grid h3{
+    font-size: 16px;
+    
+  }
+  
+  .Features_Section .grid p{
+    font-size: 12px;
+  }
+
+  .Features_Section .Feature-card .card-img-content button{
+    font-size: 10px;
+    height: 31px;
+    width: 89px;
+  }
+
+  .Chat-box .chat-content {
+    width: 100%;
+  }
+
+  .Trophies .news-section .row .card{
+    padding-right: 5px;
+
+
+  }
+
+
+  .trophies-bottom-border{
+    width: 100%;
+    margin-left: 0px;
+    
+  }
+
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width: 1400px) { 
+  .Features_Section .card-img-content{
+  position: absolute;
+  bottom: 10px;
+  right:385px;
+  gap: 20px;
+
+}
+  
+}
